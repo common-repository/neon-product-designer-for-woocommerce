@@ -1,0 +1,70 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
+.npd-cart-item-data-wrap{
+  display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.npd-cart-item-data-container{
+  max-width: 300px;
+  margin-bottom: 20px;
+  border: 1px solid #e8e8e8;
+}
+.npd-cart-item-data-wrap:nth-child(even){
+	background-color:#e8e8e8;
+}
+.cart-item-data-color{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 4px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+.npd-cartitem-img{
+	height: auto;
+	width: 100px;
+    max-width: 100px
+}
+.npd-design-product{
+	border-radius: 4px !important;
+    height: 40px !important;
+    background-color: #55C1CA !important;
+    outline: none !important;
+    box-shadow: none !important;
+    display: inline-block;
+    line-height: 40px !important;
+    color: #fff !important;
+    padding: 0px 15px !important;
+    margin: 5px 0px !important;
+    text-decoration: none !important;
+    font-size: 14px !important;
+}
+.npd-grid .cat-item-ctn{
+	display: inline-block;
+	vertical-align: middle;
+	float: left;
+	margin: 20px 10px;
+}
+
+.npd-grid .cat-item-ctn .cat-item{
+	border: 1px solid #eee;
+    text-align: center;
+}
+.npd-grid .cat-item-ctn .cat-item h3{
+	padding: 0px 10px;
+}
+.npd-grid .cat-item-ctn .cat-item hr{
+	margin-bottom: 0px;
+}
+.npd-grid .cat-item-ctn .cat-item a{
+	margin: 10px auto !important;
+}
+.woocommerce-cart-form__cart-item .product-name .omodal .omodal-dialog .omodal-content .omodal-body img{
+  width: 100% !important;
+  height: auto !important;
+}

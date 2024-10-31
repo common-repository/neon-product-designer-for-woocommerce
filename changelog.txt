@@ -1,0 +1,15 @@
+= 1.0 =
+* 11 Jan 2022
+* Initial release version
+
+= 2.0 =
+* 31 May 2023
+* Fixed image link problem
+* Added font problem fixed
+* Added to cart problem fixed
+
+= 2.1.0 =
+* 08 Jul 2023*
+*Fix issue related to non-numerical value 
+*Fix isssue related to add to cart
+*Limit color and font options to 3

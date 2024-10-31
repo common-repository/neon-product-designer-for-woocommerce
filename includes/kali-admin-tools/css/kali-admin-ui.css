@@ -1,0 +1,12 @@
+.kali-admin-ui #TabbedPanels1 .TabbedPanelsTabGroup {
+    display: flex !important;
+}
+
+.kali-admin-ui #TabbedPanels1 .TabbedPanelsTabGroup .TabbedPanelsTab{
+    margin: 0 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px #888888;
+    border-radius: 5px;
+    background: white;
+    padding: 8px 12px;
+}

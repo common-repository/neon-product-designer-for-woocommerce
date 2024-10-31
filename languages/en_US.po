@@ -1,0 +1,959 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Neon Product Designer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-11 00:07+0100\n"
+"PO-Revision-Date: 2022-01-11 00:08+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Revision-Date: Sun Aug 07 2016 20:50:00 GMT+0100 (WAT)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-neon-product-designer-admin.php:113
+msgid "Clear"
+msgstr ""
+
+#: admin/class-neon-product-designer-admin.php:114
+#: admin/class-npd-config.php:436 includes/class-npd-additional-option.php:100
+#: includes/class-npd-color.php:105 includes/class-npd-scenes.php:109
+msgid "Default"
+msgstr ""
+
+#: admin/class-neon-product-designer-admin.php:115
+msgid "Select Color"
+msgstr ""
+
+#: admin/class-neon-product-designer-admin.php:116
+msgid "Current Color"
+msgstr ""
+
+#: admin/class-neon-product-designer-admin.php:201
+#: admin/class-neon-product-designer-admin.php:202
+msgid "Manage Fonts"
+msgstr ""
+
+#: admin/class-neon-product-designer-admin.php:210
+#: admin/class-neon-product-designer-admin.php:211
+msgid "Manage Scenes"
+msgstr ""
+
+#: admin/class-neon-product-designer-admin.php:220
+#: admin/class-neon-product-designer-admin.php:224
+#: admin/class-npd-config.php:136 includes/class-npd-additional-option.php:136
+msgid "Additional Options"
+msgstr ""
+
+#: admin/class-neon-product-designer-admin.php:235
+#: admin/class-neon-product-designer-admin.php:238
+msgid "Manage Colors"
+msgstr ""
+
+#: admin/class-neon-product-designer-admin.php:253
+#: admin/class-neon-product-designer-admin.php:256
+msgid "Configurations"
+msgstr ""
+
+#: admin/class-neon-product-designer-admin.php:265
+#: admin/class-neon-product-designer-admin.php:266
+msgid "Settings"
+msgstr ""
+
+#: admin/class-neon-product-designer-admin.php:392
+msgid "Neon Product Designer Settings"
+msgstr ""
+
+#: admin/class-neon-product-designer-admin.php:419
+msgid "Save"
+msgstr ""
+
+#: admin/class-neon-product-designer-admin.php:439
+msgid "Settings successfully saved."
+msgstr ""
+
+#: admin/class-neon-product-designer-admin.php:470
+msgid "General Settings"
+msgstr ""
+
+#: admin/class-neon-product-designer-admin.php:479
+msgid "Design page"
+msgstr ""
+
+#: admin/class-neon-product-designer-admin.php:480
+msgid ""
+"This setting allows the plugin to locate the page where customizations are "
+"made. Please note that this page can only be accessed by our plugin and "
+"should not appear in any menu."
+msgstr ""
+
+#: admin/class-neon-product-designer-admin.php:490
+msgid "Manage the configuration page"
+msgstr ""
+
+#: admin/class-neon-product-designer-admin.php:495
+msgid ""
+"If yes, automatically append editor to the design page. This option allows "
+"you to define whether or not you want to use a shortcode to display the the "
+"customizer in the selected page."
+msgstr ""
+
+#: admin/class-neon-product-designer-admin.php:497
+#: admin/class-neon-product-designer-admin.php:525
+#: admin/class-neon-product-designer-admin.php:539
+#: admin/class-neon-product-designer-admin.php:552
+#: admin/class-neon-product-designer-admin.php:565
+#: admin/class-neon-product-designer-admin.php:580
+#: admin/class-neon-product-designer-admin.php:594
+#: admin/class-neon-product-designer-admin.php:608
+#: admin/class-npd-config.php:573
+msgid "Yes"
+msgstr ""
+
+#: admin/class-neon-product-designer-admin.php:498
+#: admin/class-neon-product-designer-admin.php:526
+#: admin/class-neon-product-designer-admin.php:540
+#: admin/class-neon-product-designer-admin.php:553
+#: admin/class-neon-product-designer-admin.php:566
+#: admin/class-neon-product-designer-admin.php:579
+#: admin/class-neon-product-designer-admin.php:595
+#: admin/class-neon-product-designer-admin.php:609
+#: admin/class-npd-config.php:572 admin/class-npd-product.php:60
+#: admin/class-npd-product.php:65
+msgid "No"
+msgstr ""
+
+#: admin/class-neon-product-designer-admin.php:504
+msgid "Parts position in cart"
+msgstr ""
+
+#: admin/class-neon-product-designer-admin.php:509
+msgid ""
+"This option allows you to set where to show your customized products parts "
+"on the cart page"
+msgstr ""
+
+#: admin/class-neon-product-designer-admin.php:511
+msgid "Thumbnail column"
+msgstr ""
+
+#: admin/class-neon-product-designer-admin.php:512
+msgid "Name column"
+msgstr ""
+
+#: admin/class-neon-product-designer-admin.php:518
+msgid "Send the design as an attachment"
+msgstr ""
+
+#: admin/class-neon-product-designer-admin.php:523
+msgid "This option allows you to send or not the design by mail after checkout"
+msgstr ""
+
+#: admin/class-neon-product-designer-admin.php:532
+msgid "Add to cart"
+msgstr ""
+
+#: admin/class-neon-product-designer-admin.php:537
+#: admin/class-neon-product-designer-admin.php:550
+msgid ""
+"This option allows you to show/hide the cart button on the customization page"
+msgstr ""
+
+#: admin/class-neon-product-designer-admin.php:545
+msgid "Hide design buttons on shop page"
+msgstr ""
+
+#: admin/class-neon-product-designer-admin.php:558
+msgid "Redirect after adding a custom design to the cart?"
+msgstr ""
+
+#: admin/class-neon-product-designer-admin.php:563
+msgid ""
+"This option allows you to define what to do after adding a design to the cart"
+msgstr ""
+
+#: admin/class-neon-product-designer-admin.php:572
+msgid "Hide requirements notices"
+msgstr ""
+
+#: admin/class-neon-product-designer-admin.php:577
+msgid ""
+"This option allows you to define whether or not you want to hide the "
+"requirement notice."
+msgstr ""
+
+#: admin/class-neon-product-designer-admin.php:587
+msgid "Hide add to cart button for custom products"
+msgstr ""
+
+#: admin/class-neon-product-designer-admin.php:592
+msgid ""
+"This option allows you to define whether or not you want to hide the add to "
+"cart button for custom products on the products page."
+msgstr ""
+
+#: admin/class-neon-product-designer-admin.php:601
+msgid "Follow scroll"
+msgstr ""
+
+#: admin/class-neon-product-designer-admin.php:606
+msgid ""
+"This option allows you to define whether or not you want to enable follow "
+"scroll."
+msgstr ""
+
+#: admin/class-neon-product-designer-admin.php:697
+msgid ""
+"How to fix this: You can edit your php.ini file to increase the specified "
+"variables to the recommanded values or you can ask your hosting company to "
+"make the changes for you."
+msgstr ""
+
+#: admin/class-npd-config.php:19 admin/class-npd-config.php:20
+#: admin/class-npd-config.php:29
+msgctxt "neon-product-designer"
+msgid "Configurations"
+msgstr ""
+
+#: admin/class-npd-config.php:21 admin/class-npd-config.php:22
+#: admin/class-npd-config.php:24
+msgctxt "neon-product-designer"
+msgid "New configuration"
+msgstr ""
+
+#: admin/class-npd-config.php:23
+msgctxt "neon-product-designer"
+msgid "Edit configuration"
+msgstr ""
+
+#: admin/class-npd-config.php:25
+msgctxt "neon-product-designer"
+msgid "View configuration"
+msgstr ""
+
+#: admin/class-npd-config.php:26
+msgctxt "neon-product-designer"
+msgid "No configuration found"
+msgstr ""
+
+#: admin/class-npd-config.php:27
+msgctxt "neon-product-designer"
+msgid "No configuration in the trash"
+msgstr ""
+
+#: admin/class-npd-config.php:28
+msgctxt "neon-product-designer"
+msgid "Neon Product Designer"
+msgstr ""
+
+#: admin/class-npd-config.php:101
+msgid "Font settings"
+msgstr ""
+
+#: admin/class-npd-config.php:108
+msgid "Color settings"
+msgstr ""
+
+#: admin/class-npd-config.php:115
+msgid "Scene settings"
+msgstr ""
+
+#: admin/class-npd-config.php:122
+msgid "Sizes"
+msgstr ""
+
+#: admin/class-npd-config.php:129
+msgid "Special note"
+msgstr ""
+
+#: admin/class-npd-config.php:144
+msgid "Princing Rules"
+msgstr ""
+
+#: admin/class-npd-config.php:166
+msgid "Element"
+msgstr ""
+
+#: admin/class-npd-config.php:167
+msgid "Element on which the rule is based"
+msgstr ""
+
+#: admin/class-npd-config.php:172
+msgid "If nb chars in text"
+msgstr ""
+
+#: admin/class-npd-config.php:173
+msgid "If nb lines in text"
+msgstr ""
+
+#: admin/class-npd-config.php:174
+msgid "If text W"
+msgstr ""
+
+#: admin/class-npd-config.php:175
+msgid "If text H"
+msgstr ""
+
+#: admin/class-npd-config.php:176
+msgid "If text W x H"
+msgstr ""
+
+#: admin/class-npd-config.php:181
+msgid "Operate"
+msgstr ""
+
+#: admin/class-npd-config.php:182
+msgid "Operate options"
+msgstr ""
+
+#: admin/class-npd-config.php:187
+msgid "equals"
+msgstr ""
+
+#: admin/class-npd-config.php:188
+msgid "is less than"
+msgstr ""
+
+#: admin/class-npd-config.php:189
+msgid "is less or equal to"
+msgstr ""
+
+#: admin/class-npd-config.php:190
+msgid "more than"
+msgstr ""
+
+#: admin/class-npd-config.php:191
+msgid "more or equal to"
+msgstr ""
+
+#: admin/class-npd-config.php:196
+msgid "Value"
+msgstr ""
+
+#: admin/class-npd-config.php:197
+msgid "Value options"
+msgstr ""
+
+#: admin/class-npd-config.php:205 admin/class-npd-config.php:400
+#: includes/class-npd-additional-option.php:92
+msgid "Price"
+msgstr ""
+
+#: admin/class-npd-config.php:206
+msgid "Price add"
+msgstr ""
+
+#: admin/class-npd-config.php:214
+msgid "Relation"
+msgstr ""
+
+#: admin/class-npd-config.php:215
+msgid "Relation options"
+msgstr ""
+
+#: admin/class-npd-config.php:220
+msgid "Or"
+msgstr ""
+
+#: admin/class-npd-config.php:221
+msgid "And"
+msgstr ""
+
+#: admin/class-npd-config.php:227
+msgid "Materiel"
+msgstr ""
+
+#: admin/class-npd-config.php:230
+msgid "Princing rule"
+msgstr ""
+
+#: admin/class-npd-config.php:232
+msgid "Add new rule"
+msgstr ""
+
+#: admin/class-npd-config.php:284
+msgid "Select colors"
+msgstr ""
+
+#: admin/class-npd-config.php:288
+msgid "Select colors palette on this configuration"
+msgstr ""
+
+#: admin/class-npd-config.php:293
+msgid "Default colors"
+msgstr ""
+
+#: admin/class-npd-config.php:297
+msgid "This option allows you to set a default color."
+msgstr ""
+
+#: admin/class-npd-config.php:299
+msgid "Ligth Color"
+msgstr ""
+
+#: admin/class-npd-config.php:300
+msgid "Same Color"
+msgstr ""
+
+#: admin/class-npd-config.php:301
+msgid "Text Color"
+msgstr ""
+
+#: admin/class-npd-config.php:304 admin/class-npd-config.php:308
+msgid "Select default colors behaviour"
+msgstr ""
+
+#: admin/class-npd-config.php:347
+msgid "Select Scenes"
+msgstr ""
+
+#: admin/class-npd-config.php:351
+msgid "Select scenes group on this configuration"
+msgstr ""
+
+#: admin/class-npd-config.php:356 admin/class-npd-config.php:415
+#: admin/class-npd-config.php:578
+msgid "Section info"
+msgstr ""
+
+#: admin/class-npd-config.php:359 admin/class-npd-config.php:418
+#: admin/class-npd-config.php:581
+msgid "Tooltip info"
+msgstr ""
+
+#: admin/class-npd-config.php:393
+msgid "Label"
+msgstr ""
+
+#: admin/class-npd-config.php:394 includes/class-npd-additional-option.php:86
+#: includes/class-npd-color.php:90 includes/class-npd-scenes.php:102
+#: includes/npd-add-fonts.php:117 includes/npd-add-fonts.php:186
+#: includes/npd-add-fonts.php:260
+msgid "Name"
+msgstr ""
+
+#: admin/class-npd-config.php:403
+msgid "size price"
+msgstr ""
+
+#: admin/class-npd-config.php:408 includes/class-npd-additional-option.php:118
+#: includes/class-npd-additional-option.php:125
+#: includes/class-npd-additional-option.php:143
+msgid "Description"
+msgstr ""
+
+#: admin/class-npd-config.php:411 includes/class-npd-additional-option.php:128
+#: includes/class-npd-additional-option.php:146
+msgid "description"
+msgstr ""
+
+#: admin/class-npd-config.php:422 admin/class-npd-config.php:423
+msgid "Width"
+msgstr ""
+
+#: admin/class-npd-config.php:429 admin/class-npd-config.php:430
+msgid "Height"
+msgstr ""
+
+#: admin/class-npd-config.php:437
+msgid "Select default size"
+msgstr ""
+
+#: admin/class-npd-config.php:446
+msgid "Unit"
+msgstr ""
+
+#: admin/class-npd-config.php:447
+msgid "Select default unit"
+msgstr ""
+
+#: admin/class-npd-config.php:451
+msgid "Centimeter"
+msgstr ""
+
+#: admin/class-npd-config.php:452
+msgid "Milimeter"
+msgstr ""
+
+#: admin/class-npd-config.php:453
+msgid "Pixel"
+msgstr ""
+
+#: admin/class-npd-config.php:454
+msgid "Inch"
+msgstr ""
+
+#: admin/class-npd-config.php:455
+msgid "Point"
+msgstr ""
+
+#: admin/class-npd-config.php:464
+msgid "Sizes settings"
+msgstr ""
+
+#: admin/class-npd-config.php:468
+msgid ""
+"Add size setting<br><strong>Labels</strong>: size setting label "
+"<br><strong>Width</strong>: width <br><strong>Height</strong>: height"
+msgstr ""
+
+#: admin/class-npd-config.php:470
+msgid "Add new sizes"
+msgstr ""
+
+#: admin/class-npd-config.php:523
+msgid "Select fonts"
+msgstr ""
+
+#: admin/class-npd-config.php:527
+msgid "Select usable fonts on this configuration"
+msgstr ""
+
+#: admin/class-npd-config.php:532
+msgid "Font Appearance"
+msgstr ""
+
+#: admin/class-npd-config.php:536
+msgid "Select how font diplay on configurator page"
+msgstr ""
+
+#: admin/class-npd-config.php:566
+msgid "Enable Special note"
+msgstr ""
+
+#: admin/class-npd-config.php:567
+msgid "Allow user to add special note"
+msgstr ""
+
+#: admin/class-npd-config.php:615
+msgid "Select additional options"
+msgstr ""
+
+#: admin/class-npd-config.php:619
+msgid "Select usable additional options on this configuration"
+msgstr ""
+
+#: admin/class-npd-config.php:769
+msgid " - copy"
+msgstr ""
+
+#: admin/class-npd-product.php:46
+msgid "Neon Product"
+msgstr ""
+
+#: admin/class-npd-product.php:62
+msgid "Neon"
+msgstr ""
+
+#: admin/class-npd-product.php:343
+#: public/class-neon-product-designer-public.php:203
+msgid "Neon Design"
+msgstr ""
+
+#: admin/class-npd-product.php:364
+msgid ""
+"In order to assign a configuration to a variation, you will need to go into "
+"the variation properties (same area you define a variation price)."
+msgstr ""
+
+#: includes/class-npd-additional-option.php:28
+#: includes/class-npd-additional-option.php:37
+#: includes/class-npd-additional-option.php:68
+msgid "Additional options"
+msgstr ""
+
+#: includes/class-npd-additional-option.php:29
+msgid "Additional option"
+msgstr ""
+
+#: includes/class-npd-additional-option.php:30
+msgid "New additional option"
+msgstr ""
+
+#: includes/class-npd-additional-option.php:31
+#: includes/class-npd-additional-option.php:33
+msgid "New additional option "
+msgstr ""
+
+#: includes/class-npd-additional-option.php:32
+msgid "Edit additional option "
+msgstr ""
+
+#: includes/class-npd-additional-option.php:34
+msgid "View additional option"
+msgstr ""
+
+#: includes/class-npd-additional-option.php:35
+msgid "No additional option  found"
+msgstr ""
+
+#: includes/class-npd-additional-option.php:36
+msgid "No additional option in the trash"
+msgstr ""
+
+#: includes/class-npd-additional-option.php:95
+msgid "Icon price"
+msgstr ""
+
+#: includes/class-npd-additional-option.php:101
+msgid "Select default option"
+msgstr ""
+
+#: includes/class-npd-additional-option.php:110
+#: includes/class-npd-additional-option.php:155
+#: includes/class-npd-scenes.php:93
+msgid "Image"
+msgstr ""
+
+#: includes/class-npd-additional-option.php:113
+msgid "Option Image"
+msgstr ""
+
+#: includes/class-npd-additional-option.php:121
+msgid "Option description"
+msgstr ""
+
+#: includes/class-npd-additional-option.php:132
+#: includes/class-npd-color.php:115 includes/class-npd-scenes.php:119
+msgid "Components"
+msgstr ""
+
+#: includes/class-npd-additional-option.php:139
+msgid "Add option"
+msgstr ""
+
+#: includes/class-npd-additional-option.php:149
+msgid "Behaviour"
+msgstr ""
+
+#: includes/class-npd-additional-option.php:152
+msgid "Option behaviour"
+msgstr ""
+
+#: includes/class-npd-additional-option.php:154
+msgid "Select"
+msgstr ""
+
+#: includes/class-npd-additional-option.php:156
+msgid "Text"
+msgstr ""
+
+#: includes/class-npd-color.php:29 includes/class-npd-color.php:30
+#: includes/class-npd-color.php:38 includes/class-npd-color.php:72
+#: includes/class-npd-color.php:119
+msgid "Colors palettes"
+msgstr ""
+
+#: includes/class-npd-color.php:31 includes/class-npd-color.php:32
+#: includes/class-npd-color.php:34
+msgid "New palette"
+msgstr ""
+
+#: includes/class-npd-color.php:33
+msgid "Edit palette"
+msgstr ""
+
+#: includes/class-npd-color.php:35
+msgid "View palette"
+msgstr ""
+
+#: includes/class-npd-color.php:36
+msgid "No palette found"
+msgstr ""
+
+#: includes/class-npd-color.php:37
+msgid "No palette in the trash"
+msgstr ""
+
+#: includes/class-npd-color.php:96
+msgid "Hex code"
+msgstr ""
+
+#: includes/class-npd-color.php:106
+msgid "Select default color"
+msgstr ""
+
+#: includes/class-npd-color.php:122
+msgid "Add color"
+msgstr ""
+
+#: includes/class-npd-design.php:44
+msgid "Item successfully updated."
+msgstr ""
+
+#: includes/class-npd-design.php:44 includes/class-npd-design.php:48
+msgid "View Cart"
+msgstr ""
+
+#: includes/class-npd-design.php:48
+msgid "Product successfully added to cart."
+msgstr ""
+
+#: includes/class-npd-design.php:50
+msgid ""
+"A problem occured while adding the product to the cart. Please try again."
+msgstr ""
+
+#: includes/class-npd-design.php:131 includes/class-npd-design.php:254
+#: public/class-neon-product-designer-public.php:385
+msgid "Preview"
+msgstr ""
+
+#: includes/class-npd-design.php:151 includes/npd-add-fonts.php:207
+#: public/class-neon-product-designer-public.php:400
+msgid "Edit"
+msgstr ""
+
+#: includes/class-npd-design.php:252
+msgid "Download"
+msgstr ""
+
+#: includes/class-npd-editor.php:31
+msgid "Error: Invalid product: "
+msgstr ""
+
+#: includes/class-npd-editor.php:33
+msgid "1- Is your customization page defined as homepage?"
+msgstr ""
+
+#: includes/class-npd-editor.php:35
+msgid "2- Is your customization page defined as one of woocommerce pages?"
+msgstr ""
+
+#: includes/class-npd-editor.php:37
+msgid ""
+"3- Does the product you are trying to customize exists and is published in "
+"your shop?"
+msgstr ""
+
+#: includes/class-npd-editor.php:39
+msgid ""
+"4- Are you accessing this page from one of the product designer buttons?"
+msgstr ""
+
+#: includes/class-npd-scenes.php:27 includes/class-npd-scenes.php:28
+#: includes/class-npd-scenes.php:67 includes/class-npd-scenes.php:123
+msgid "Scenes"
+msgstr ""
+
+#: includes/class-npd-scenes.php:29 includes/class-npd-scenes.php:30
+#: includes/class-npd-scenes.php:32
+msgid "New scenes group"
+msgstr ""
+
+#: includes/class-npd-scenes.php:31
+msgid "Edit scenes group"
+msgstr ""
+
+#: includes/class-npd-scenes.php:33
+msgid "View group"
+msgstr ""
+
+#: includes/class-npd-scenes.php:34
+msgid "No scenes group found"
+msgstr ""
+
+#: includes/class-npd-scenes.php:35
+msgid "No scenes group in the trash"
+msgstr ""
+
+#: includes/class-npd-scenes.php:36
+msgid "scenes"
+msgstr ""
+
+#: includes/class-npd-scenes.php:98
+msgid "Component icon"
+msgstr ""
+
+#: includes/class-npd-scenes.php:105
+msgid "Scene name"
+msgstr ""
+
+#: includes/class-npd-scenes.php:110
+msgid "Select default scene"
+msgstr ""
+
+#: includes/class-npd-scenes.php:126
+msgid "Add scene"
+msgstr ""
+
+#: includes/npd-add-fonts.php:110
+msgid "Edit Font"
+msgstr ""
+
+#: includes/npd-add-fonts.php:121
+msgid "Name for the attribute (shown on the front-end)."
+msgstr ""
+
+#: includes/npd-add-fonts.php:128 includes/npd-add-fonts.php:265
+msgid "URL"
+msgstr ""
+
+#: includes/npd-add-fonts.php:132 includes/npd-add-fonts.php:267
+msgid ""
+"Google font URL. Leave this field empty if the font is already loaded by the "
+"theme."
+msgstr ""
+
+#: includes/npd-add-fonts.php:137 includes/npd-add-fonts.php:189
+#: includes/npd-add-fonts.php:273
+msgid "TTF font file"
+msgstr ""
+
+#: includes/npd-add-fonts.php:144 includes/npd-add-fonts.php:276
+msgid "Add font file"
+msgstr ""
+
+#: includes/npd-add-fonts.php:145 includes/npd-add-fonts.php:277
+msgid "Make sure you select at least one style per file."
+msgstr ""
+
+#: includes/npd-add-fonts.php:161
+msgid ""
+"TrueType font file (can be used if the url is not provided and while "
+"generating the output vector."
+msgstr ""
+
+#: includes/npd-add-fonts.php:166
+msgid "Update"
+msgstr ""
+
+#: includes/npd-add-fonts.php:178
+msgid "Add Fonts"
+msgstr ""
+
+#: includes/npd-add-fonts.php:187
+msgid "Url"
+msgstr ""
+
+#: includes/npd-add-fonts.php:188
+msgid "Style name"
+msgstr ""
+
+#: includes/npd-add-fonts.php:207
+msgid "Delete"
+msgstr ""
+
+#: includes/npd-add-fonts.php:245
+msgid "No fonts currently exist."
+msgstr ""
+
+#: includes/npd-add-fonts.php:256
+msgid "Add New Font"
+msgstr ""
+
+#: includes/npd-add-fonts.php:262
+msgid "Name for the font (shown on the front-end)."
+msgstr ""
+
+#: includes/npd-add-fonts.php:291
+msgid ""
+"TrueType font (can be used if the url is not provided and while generating "
+"the output vector."
+msgstr ""
+
+#: includes/npd-add-fonts.php:293
+msgid "Add Font"
+msgstr ""
+
+#: includes/npd-add-fonts.php:302
+msgid "Are you sure you want to delete this font?"
+msgstr ""
+
+#: includes/npd-add-fonts.php:364 includes/npd-add-fonts.php:387
+msgid "Remove font"
+msgstr ""
+
+#: includes/npd-add-fonts.php:422
+msgid "Pick a google font"
+msgstr ""
+
+#: includes/skins/default/class-npd-skin-default.php:40
+msgid "ADD TO CART"
+msgstr ""
+
+#: includes/skins/default/class-npd-skin-default.php:42
+msgid "UPDATE CART ITEM"
+msgstr ""
+
+#: includes/skins/default/class-npd-skin-default.php:66
+msgid "Add your custom text"
+msgstr ""
+
+#: includes/skins/default/class-npd-skin-default.php:69
+msgid "You glow !!!"
+msgstr ""
+
+#: includes/skins/default/class-npd-skin-default.php:76
+msgid "Text Alignment"
+msgstr ""
+
+#: includes/skins/default/class-npd-skin-default.php:97
+msgid "Font Family"
+msgstr ""
+
+#: includes/skins/default/class-npd-skin-default.php:212
+msgid "Color"
+msgstr ""
+
+#: includes/skins/default/class-npd-skin-default.php:252
+msgid "Dimensions"
+msgstr ""
+
+#: includes/skins/default/class-npd-skin-default.php:294
+msgid "Scene"
+msgstr ""
+
+#: includes/skins/default/class-npd-skin-default.php:515
+msgid "Additional note"
+msgstr ""
+
+#: includes/skins/default/class-npd-skin-default.php:548
+msgid "Text Size"
+msgstr ""
+
+#: includes/skins/default/class-npd-skin-default.php:550
+msgid "W:"
+msgstr ""
+
+#: includes/skins/default/class-npd-skin-default.php:555
+msgid "H:"
+msgstr ""
+
+#: includes/skins/default/class-npd-skin-default.php:566
+msgid "ON"
+msgstr ""
+
+#: includes/skins/default/class-npd-skin-default.php:567
+msgid "OFF"
+msgstr ""
+
+#: includes/vc-admin-utils.php:561
+msgid "Add"
+msgstr ""
+
+#: public/class-neon-product-designer-public.php:126
+msgid ""
+"You're trying to access the customization page whitout a product to "
+"customize. This page should only be accessed using one of the customization "
+"buttons."
+msgstr ""
+
+#: public/class-neon-product-designer-public.php:208
+msgid "Select option"
+msgstr ""
+
+#: public/class-neon-product-designer-public.php:404
+msgid "Custom design"
+msgstr ""

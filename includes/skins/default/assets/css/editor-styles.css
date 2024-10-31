@@ -1,0 +1,608 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+/*Preview style*/
+.npd-editor-content{
+  display: flex;
+  width: 100%;
+}
+.npd-editor-right-side{
+  width:calc(100% - 380px);
+  height: 100vh;
+  background-color:#f8f8f8;
+  border-radius: 10px;
+  position: relative;
+
+}
+.npd-editor-preview{
+  width: 100%;
+ /* height: 100%;*/
+ height: calc(100vh - 178px);
+  position: relative;
+  background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.npd-editor-preview #npd-text-render-wrap{
+  position: absolute;
+  text-align:center;
+  margin: auto;
+  top: 50px;
+ /* bottom: 0;*/
+  left: 0;
+  right: 0;
+  /*width: 150px;*/
+  height: auto;
+  /*max-height: 250px;*/
+  display: inline-block;
+  /*border: 1px solid #000;*/
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  display: inline-block;
+ /* max-width: 80%;*/
+ transition: text-shadow .3s;
+
+}
+.npd-text-render-container{
+  position: relative;
+  width: 80%;
+  height: calc(100% - 50px);
+  margin: auto;
+  display: block;
+}
+.npd-editor-left-side{
+  width: 380px;
+  background-color: #f8f8f8;
+  margin-right: 30px;
+	border-radius: 10px;
+	padding: 5px;
+}
+.npd-custom-textarea{
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  height: 80px;
+  line-height: normal;
+  background: transparent;
+  border: 1px solid #bcbcbc;
+  border-radius: 3px;
+  box-shadow: none;
+  outline: none;
+  color: #7e7e7e;
+  /*  line-height: revert;
+	display: inline-block;*/
+}
+
+.npd-total-price{
+  text-align: right;
+	font-size: 30px;
+	padding: 10px 20px;
+	color: #000;
+}
+/*.npd-editor-left-side .mCSB_container{
+  background: #f8f8f8;
+  border-radius: 10px;
+}*/
+
+.npd-radio-item-wrap{
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+
+}
+#npd-editor-container .npd-radio-item-wrap input[type="radio"]{
+  position: absolute;
+	width: 100% !important;
+	height: 100%;
+	z-index: 9;
+	cursor: pointer;
+	top: 0;
+}
+#npd-editor-container .npd-radio-item-wrap input[type="radio"] + label{
+  margin: 0;
+}
+
+.npd-font-item{
+  /*border: 1px solid #eee;*/
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#npd-editor-container .npd-radio-item-wrap input[type="radio"]:checked + label{
+  color:#55C1CA;
+  border-color:#55C1CA;
+}
+.npd-scene-bg-wrap{
+  display: inline-block;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: left;
+  width: calc((100% / 3 ) - 20px);
+  height: 50px;
+  margin: 0px 10px 10px 10px;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 40%);
+}
+.npd-scene-bg-wrap label,.npd-custom-option-img-wrap label{
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  border: 3px solid transparent;
+}
+.npd-scene-content,.npd-neon-color-wrap,
+.npd-custom-option-wrap{
+  display: inline-block;
+	width: 100%;
+}
+.npd-color-wrap{
+  display: inline-block;
+  float: left;
+  width: 40px;
+  height: 40px;
+  margin: 0px 10px 10px 10px;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 40%);
+}
+.npd-color-wrap label{
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  border: 2px solid transparent;
+  border-radius: 50%;
+
+}
+.npd-custom-option-img-wrap{
+  display: inline-block;
+  float: left;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 40%);
+  width: calc((100% / 3 ) - 20px);
+  height: 50px;
+  margin: 0px 10px 10px 10px;
+  border-radius: 4px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.npd-custom-option-img-wrap label{
+  border-radius: 4px;
+}
+.npd-custom-option-txt-wrap label{
+  display: inline-block;
+	padding: 5px 15px;
+	border: 1px solid #eee;
+	margin: 0px 10px 10px 10px !important;
+	float: left;
+	box-shadow: 0 1px 3px rgb(0 0 0 / 40%);
+	font-weight: bold;
+}
+/*******************************************************************npd css gg**************************************************************************/
+
+/*Texte alignement*/
+
+#npd-editor-container input[type="radio"]{
+  opacity: 0 !important;
+}
+.npd-align-btn-wrap label{
+  border: 1px solid #000;
+  padding: 8px 15px;
+  text-align:center;
+  display: inline-block;
+}
+.npd-editor-content-text{
+  display: flex;
+  justify-content: space-between;;
+}
+.npd-hidden{
+  display: none;
+}
+.npd-text-size-wrap label{
+  border: 1px solid #000;
+  float: left;
+  text-align: center;
+  font-size: 15px;
+  display: inline-block;
+  padding: 10px 15px;
+  margin-bottom: 10px !important;
+  margin-left: 0 !important;
+  margin-right: 10px !important;
+}
+
+input[type="radio"].npd-text-size-wrap:checked + label {
+  border: 1px solid rgb(20, 110, 161);
+}
+
+.npd-editor-tools-content {
+  position:relative;
+}
+
+/*********************** Color ****************************/
+.color-table{
+  padding: 0;
+  margin: 3px;
+  text-align: center;
+  height: 80px;
+}
+.color-table li > i{
+  font-size: 35px;
+}
+.npd-color{
+  display: inline-block;
+  padding: 8px;
+  width: 18%;
+  margin: 0;
+}
+.npd-color a{
+  padding: 3px;
+  display: block;
+  height: 20px;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 40%);
+}
+.npd-color-circle a{
+  border-radius: 55%;
+  height: 30px;
+  width: 30px;
+}
+.npd-color-container{
+  overflow: auto;
+}
+body .npd-editor-content{
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+}
+
+/**********************Taille des titres*********************************/
+.npd-editor-tools-title{
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+}
+
+/************Personaliser les selectes**************/
+
+.npd-custom-select-wrap{
+  display: inline-block;
+  width: 100%;
+  min-width: 250px;
+  position: relative;
+}
+.npd-custom-select-input-cover{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  cursor: pointer;
+}
+.npd-custom-select-wrap input{
+  outline-color: #f36304;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #fff !important;
+  width: 100%;
+  box-shadow: 0 0px 2px rgb(0 0 0 / 25%);
+}
+
+.npd-custom-select-wrap ul{
+  overflow: scroll;
+  height: 200px;
+  list-style: none;
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  background-color: #fff;
+  z-index: 9;
+  box-shadow: 1px 1px 4px 1px rgb(0 0 0 / 25%)!important;
+}
+.npd-custom-select-wrap ul li{
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.npd-custom-select-wrap ul li:hover{
+  background-color: #f2f2f2;
+  background-color: #fff5ef;
+}
+.hidden{
+  display: none;
+}
+.show{
+  display: block;
+}
+/*********************************button*************************************/
+.npd-button-pay:hover{
+  text-decoration: none!important;
+}
+.npd-button-pay{
+	background-color: #f36304;
+	border-radius: 10px;
+	line-height: 1.42;
+	text-decoration: none;
+	text-align: center;
+	white-space: normal;
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: .3em;
+	display: inline-block;
+	padding: 11px 20px;
+	margin: 0;
+	width: auto;
+	min-width: 90px;
+	vertical-align: middle;
+}
+.npd-button-payement{
+  padding-top:20px; 
+  display: flex;
+}
+.npd-button-cart{
+  background: transparent;
+}
+.npd-button-cart span{
+  color: black;
+	font-size: 22px;
+}
+.npd-button-price{
+  text-align:right;
+}
+/*section left*/
+.npd-editor-tools-item{
+    margin: 10px 10px;
+    background: #f8f8f8;
+    display: inline-block;
+    width: calc(100% - 20px);
+    border-radius: 10px;
+    background-color: #fff;
+}
+.npd-editor-tools-item.is-active .npd-editor-tools-title{
+  background-color: #55C1CA;
+  color: #fff;
+}
+
+.npd_notification,.npd_notification a{
+    margin: 20px auto;
+    margin-bottom: 0;
+    padding: 10px 20px;
+    color: #fff;
+}
+.npd_notification.success{
+    background-color: green;
+}
+.npd_notification.error{
+    background-color: red;
+}
+.npd-qty-container{
+  display: flex;
+  margin-right: 10px;
+}
+.npd-qty-container .npd-custom-btn{
+  margin-right: 0 !important;
+}
+.npd-qty-container .npd-qty{
+  height: 40px;
+  box-shadow: none !important;
+  width:60px;
+  text-align: center;
+  outline: none !important;
+}
+.npd-qty-container .npd-custom-btn.minus{
+  border-radius: 4px 0px 0px 4px;
+}
+.npd-qty-container .npd-custom-btn.plus{
+  border-radius: 0px 4px 4px 0px;
+}
+.npd-button-payement  .npd-custom-btn{
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 4px;
+  line-height: 40px;
+  padding: 0 15px;
+  background-color: #55C1CA;
+  color:#fff;
+  text-transform: uppercase;
+  outline: none !important;
+}
+.custom-btn-wrap {
+  position: relative;
+}
+.custom-btn-wrap .loader{
+  position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 30px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: none;
+}
+.npd-editor-tools-content{
+  display: none;
+  padding: 20px 20px 0px 20px;
+    margin-bottom: 20px;
+    border-top: 1px solid #eee;
+}
+.first-box .npd-editor-tools-content{
+  display: block;
+}
+.npd-editor-tools-title{
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  width: 100%;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  transition: background-color .3s;
+}
+.npd-editor-tools-title:after{
+  content: "\f078";
+  font: normal normal normal 14px/1 FontAwesome;
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    margin: auto;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 15px;
+    color: #ddd;
+}
+.npd-editor-tools-title:hover{
+  background-color: #55C1CA;
+  color:#fff;
+}
+#npd-editor-container form{
+  margin-bottom: 0;
+}
+.npd-editor-content textarea{
+  outline: none !important;
+  background-color: transparent !important;
+}
+.npd-price-section{
+  /*display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;*/
+    display: block;
+    text-align: right;
+}
+.npd-txt-sizes-wrap{
+  font-weight: bold;
+}
+.npd-light-btn-wrap{
+  background-color: #fff;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 10px 20px 0px 20px;
+}
+.npd-light-btn-wrap > span.npd-light-on{
+  border-radius: 10px 0px 0px 10px;
+}
+.npd-light-btn-wrap > span.npd-light-off{
+  border-radius: 0px 10px 10px 0;
+}
+.npd-light-btn-wrap > span{
+    height: 40px;
+    padding: 0px 10px;
+    line-height: 40px;
+    display: inline-block;
+    color: #000;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+.npd-light-btn-wrap > span.is_activated{
+  background-color: #55C1CA;
+  color:#fff;
+}
+.npd-light-btn-container{
+  text-align: right;
+}
+.npd-infobule{
+  margin-left: 10px;
+}
+.npd-custom-tooltip{
+  background-color: #eee !important;
+  border-color: #eee !important;
+  color: #000 !important;
+  border-radius: 3px;
+  font-size: 16px !important;
+  padding:10px 20px !important;
+  line-height: normal !important;
+}
+
+@media (max-width: 767px){
+  .col-full{
+    padding: 0 0px;
+  }
+  #npd-editor-content{
+    flex-direction: column-reverse;
+  }
+  .npd-editor-left-side{
+    max-width: 100%;
+    width: 100%;
+    margin-right: 0;
+    margin-top: 290px;
+  }
+  .npd-editor-right-side{
+    width: 100%;
+    height: 200px;
+  }
+  .npd-editor-preview{
+    height: calc(100%);
+  }
+  #npd-text-render-wrap{
+    font-size: 12px !important;
+    top:20px !important;
+  }
+  .npd-total-price{
+    font-size: 17px;
+    font-weight: bold;
+    padding-right: 0;
+  }
+  .npd-txt-sizes-wrap{
+    font-size: 16px;
+  }
+  .npd-price-section{
+    padding: 0 10px;
+  }
+  .hide-on-mobile{
+    display: none;
+  }
+  .custom-btn-wrap{
+    display: inline-block;
+  }
+  .npd-button-payement{
+    display: block;
+  }
+  .npd-button-payement > .custom-btn-wrap{
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  .npd-qty-container{
+    display: inline-flex;
+    margin-bottom: 20px;
+  }
+}
+
+/*******************Ajout de css pour les fonts couleurs*******************************/
+
+.npd-txt-sizes-wrap{
+	color:#000;
+}
+
+.single .variable-items-wrapper .variable-item:not(.radio-variable-item).button-variable-item {
+    text-align: center;
+    color: white ;
+    background: #1a202c;
+}
+
+ textarea{
+	 color: black !important;
+}
+
+.npd-text-size-wrap label > div{
+	color:black !important;
+}
+.npd-custom-select-wrap input{
+	color:black !important;
+}
+.npd-custom-select-wrap ul li {
+    color: black !important;
+}
+.npd-custom-select-wrap ul{
+	overflow:auto !important;
+	height:unset !important;
+}
+.single-content ul, .single-content ol{
+	padding-left:inherit !important;
+}
+.AccordionPanelContent{
+	overflow:unset !important;
+}
+.npd-editor-content .npd-editor-left-side > * {
+	color:black ;
+}
+.npd_notification.failure{
+  background-color: red;
+}
